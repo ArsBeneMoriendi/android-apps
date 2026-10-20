@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Druga_gr2" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="actionBarStyle">@style/MojActionBar</item>
+        <item name="actionBarTheme">@style/MojaActionBarTheme</item>
+    </style>
+
+    <style name="Theme.Druga_gr2" parent="Base.Theme.Druga_gr2" />
+
+    <style name="MojActionBar"
+        parent="Widget.AppCompat.ActionBar.Solid">
+        <item name = "background">@color/actionBarBlue</item>
+        <item name = "titleTextStyle">@style/MojTytulActionBar</item>
+    </style>
+
+    <style name="MojTytulActionBar"
+        parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MojaActionBarTheme"
+        parent = "ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name = "colorControlNormal">@android:color/white</item>
+    </style>
+</resources>
