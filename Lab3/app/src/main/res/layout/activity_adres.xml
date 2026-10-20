@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtMiasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adres_miasto"
+        android:inputType="textPostalAddress"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edtUlica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adres_ulica"
+        android:inputType="textPostalAddress"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edtNumerDomu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adres_numer_domu"
+        android:inputType="textPostalAddress"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edtKodPocztowy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adres_kod_pocztowy"
+        android:inputType="textPostalAddress"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnWrocAdres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="@string/adres_wroc" />
+
+        <Button
+            android:id="@+id/btnZapiszAdres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zapisz_adres" />
+    </LinearLayout>
+
+</LinearLayout>

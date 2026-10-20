@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Druga_gr2</string>
+    <string name="adres_miasto">Miasto</string>
+    <string name="adres_ulica">Ulica</string>
+    <string name="adres_numer_domu">Numer domu</string>
+    <string name="adres_kod_pocztowy">Kod pocztowy</string>
+    <string name="adres_wroc">Wróć</string>
+    <string name="zapisz_adres">Zapisz adres</string>
+    <string name="dodaj_adres">Dodaj adres</string>
+    <string name="brak_adresu">Nie dodano adresu</string>
+    <string name="podsumowanie_adresu">Adres: %1$s %2$s, %3$s %4$s</string>
 </resources>

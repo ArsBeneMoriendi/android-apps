@@ -50,6 +50,19 @@
             android:inputType="textPersonName"/>
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btnDodajAdres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/dodaj_adres" />
+
+    <TextView
+        android:id="@+id/txtAdres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brak_adresu" />
+
     <!--Przyciski-->
     <LinearLayout
         android:layout_width="wrap_content"

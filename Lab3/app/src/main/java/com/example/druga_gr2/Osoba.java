@@ -6,6 +6,7 @@ public class Osoba {
     private String imie;
     private String nazwisko;
     private String mIdOsoba;
+    private Adres adres;
 
     public Osoba(){
         mIdOsoba = UUID.randomUUID().toString();
@@ -27,6 +28,14 @@ public class Osoba {
 
     public void setNazwisko(String nazwisko) {
         this.nazwisko = nazwisko;
+    }
+
+    public Adres getAdres() {
+        return adres;
+    }
+
+    public void setAdres(Adres adres) {
+        this.adres = adres;
     }
 
     public String getmIdOsoba() {
